@@ -1,111 +1,126 @@
-# 👤 BitMorphX – GitHub Profile
+## 👤 About BitMorphX – GitHub Profile
 
 Hello! I am **BitMorphX** – an independent developer creating open-source tools for Bitcoin address analysis, key transformation, and in-depth blockchain structural research. Since 2013, I’ve been working with cryptocurrency technologies, diving into their architecture, security, and algorithmic efficiency. I also analyze Ethereum (ETH), Binance Smart Chain (BSC), Polygon (MATIC), Solana (SOL), and other networks.
 
----
+For me, development is a path to deep understanding. All of my tools are **educational, ethical, and analytical**. I will **never publish** tools that could harm users or networks.
+
+**BitMorphX** is not a name – it’s a structured and respectful approach to the blockchain world.
+
 
 ## 📂 My Project Collection (a gentle introduction to blockchain)
 
 ### 🔹 btc_address_sorter_by_type
-A fast Bitcoin address sorter by format (P2PKH, P2SH, Bech32). Uses multi-core processing and real-time progress indicators.
+A fast Bitcoin address sorter by format (P2PKH, P2SH, Bech32). Uses multi-core processing and shows real-time progress.
 
 ### 🔹 bitpeek
-An address analysis tool decoding Base58, calculating RIPEMD-160, verifying checksum, and visualizing entropy (CLI + Flask versions).
+Address analysis tool: decodes Base58, calculates RIPEMD-160, verifies checksum, and shows entropy (CLI and Flask versions).
 
 ### 🔹 public_key_to_bitcoin_addresses
-Converts an uncompressed public key (130 characters, starting with '04') into a compressed one (02/03 format), generating Base58Check addresses from both. Designed to demonstrate the difference in conversion logic, even though it doesn’t validate Bech32 or P2SH directly.
+Converts an uncompressed public key (130 characters, starting with '04') into a compressed one (02/03 format), generates Base58Check addresses. Demonstrates the difference in conversion logic.
 
 ### 🔹 btc_batch_hex_checker
-Experimental tool for analyzing HEX key structures. Focuses on derivation logic, format conversion, and entropy distribution — without checking balances.
+Experimental HEX key structure analyzer. Focuses on derivation logic, format conversion, and entropy distribution.
 
 ### 🔹 btc_key_converter / hex_to_wif_converter
-Tools to convert HEX → WIF with support for both compressed and uncompressed private keys.
+HEX → WIF converters supporting both compressed and uncompressed private keys.
 
 ### 🔹 btc_entropy_visualizer
-Entropy visualization tool showing character distributions and structural patterns, useful for identifying weaknesses in key generation.
+Entropy visualization tool. Displays character distribution and structural patterns.
 
 ### 🔹 btc_key_generator
-A valid WIF private key generator with proper prefixes and formatting — simple and efficient for testing.
+A WIF format private key generator with correct prefixes – efficient for testing.
 
----
 
-## 🧠 My Research Focus
+## 🛡️ ETHICS
 
-### 🔍 Origins of Analysis (2010–2013)
+**BitMorphX always follows ethical principles:**
 
-Initial research explored early vulnerabilities and poor implementations in Bitcoin systems. Some key issues discovered:
+- All tools are created for **educational and scientific purposes**.
+- Tools that could be misused or are potentially harmful are **not publicly distributed**.
+- Each project is **local and does not connect to third-party systems**.
+- **No testing on real users' addresses without consent**.
 
-1. **Weak private keys** – users used repeated or insecure generators, compromising their wallets.
-2. **Incorrect BIP32/BIP44 path handling** – some wallets misused derivation paths, creating repeatable or guessable addresses.
-3. **Public key permutations** – recovery of public keys via scriptSig or other transaction fields was occasionally possible.
-4. **Overexposed public APIs** – analytic endpoints sometimes leaked too much information.
+This profile shares methodology – not an invitation to misuse. All public components are safe, and private ones are documented for research purposes only.
 
-These findings led me to build standalone, local-first tools for security research and education.
+> "Ethics begin with responsibility, and BitMorphX chooses understanding over exploitation."
 
-My tools now support:
-- address generation principles,
-- derivation path analysis (BIP32, BIP44, BIP49, BIP84),
-- decoding and analyzing blockchain scripts (e.g., scriptSig, asm),
-- asynchronous data processing pipelines.
+**⛐ Each user assumes full responsibility for any use of the tools.** BitMorphX accepts no liability for illegal or harmful actions performed using the provided code.
 
-Additionally, I incorporate:
+🔐 All public projects are MIT licensed. Built with respect for privacy and freedom. **Each user is solely responsible for how these tools are used.**
 
-- ✅ **Hamming distance** for structural similarity analysis
-- ✅ **Levenshtein distance** for typos and reconstruction testing
-- ✅ **Euclidean algorithm** for address indexing and cryptographic math
-- ✅ **Heuristics** for entropy analysis, clustering, and risk estimation
-- ✅ **Derivation path logic** to study structural predictability in wallets
 
-I also research private key reconstruction via ECDSA parameters (`r`, `s`, `z`) and historical conversion of addresses via raw `asm` or `scriptSig` scripts.
+## 👤 Private Collection (projects not publicly shared for ethical reasons)
 
----
+### 🔐 multi_chain_key_checker
+Cross-chain address and HEX key analyzer for Ethereum, BSC, and Polygon. Checks key validity, generates addresses, and observes character distribution.
 
-## 🛰️ QuantumChain (a perspective beyond classical cryptography)
+### 🔐 frag_btc_key
+Specialized tool for reconstructing fragmented Bitcoin HEX keys. Operates fully locally without databases.
 
-Before entering the quantum era, it’s important to understand and preserve today’s overlooked technologies. I support older networks that maintained value through principle — not hype.
+### 🔐 mnemonic_generator
+Tool based on BIP39 generating 12-word mnemonic phrases and calculating BTC/ETH addresses using multiple BIP standards.
 
-Example: **Bytecoin (BCN)** — the first CryptoNote-based privacy chain. Networks like Bytecoin (BCN) and Monero (XMR) remain foundational examples of decentralized resilience.
+### 🔐 myther_ix_scanner
+Ethereum network analyzer that scans public addresses to identify contract structures based on address patterns.
 
-I also research:
-- CryptoNote-based privacy coins (BCN, XMR)
-- DAG networks like Nano, IOTA
+### 🔐 validate_pubkeys
+Verifies the cryptographic validity of public keys and whether they can produce valid addresses. Used for validation and integrity checks.
+
+### 🔐 extreme_ix
+High-speed HEX → WIF and Ethereum address derivation tool for formatting and entropy experimentation.
+
+### 🔐 vanity_rimped
+Advanced RIPEMD-160 hash comparison tool that calculates % similarity between public keys, identifies stable character positions, and analyzes hash patterns.
+
+
+## 🧬 My Research Direction
+
+### 🔍 Origins (2010–2013)
+
+**My research began by investigating vulnerabilities in early Bitcoin implementations:**
+
+1. **Weak private keys** – reused or insecure sequences
+2. **Incorrect BIP32/BIP44 paths** – repeatable or predictable addresses
+3. **Public key reconstruction** – sometimes possible via scriptSig
+4. **Overly exposed APIs** – insecure analytical capabilities
+
+This led to the creation of **local, secure tools** for research and educational use.
+
+**My tools now support:**
+- address generation principles
+- derivation path analysis (BIP32, BIP44, BIP49, BIP84)
+- script analysis (e.g., scriptSig, asm)
+- asynchronous data processing
+
+**📈 Metrics used:**
+- **Hamming distance** – for structural similarity
+- **Levenshtein** – for typo tolerance testing
+- **Euclidean algorithm** – for indexing and mathematical analysis
+- **Heuristics** – for risk and cluster detection
+- **Derivation path logic** – for structural wallet analysis
+
+I also explore private key reconstruction using ECDSA parameters (`r`, `s`, `z`) and historical address conversion methods (`asm`, `scriptSig`).
+
+
+## 🚀 QuantumChain (thinking beyond classical cryptography)
+
+**Before we enter the quantum era, it's important to understand stable legacy systems.**
+
+Example: **Bytecoin (BCN)** – the first CryptoNote-based network. Together with Monero (XMR), they serve as long-lasting examples of value and security.
+
+**🔹 I also analyze:**
+- CryptoNote coins (BCN, XMR)
+- DAG networks (Nano, IOTA)
 - Experimental blockchains with alternative derivation models
 
-These are more than testbeds — they represent alternative ways of thinking beyond Bitcoin and Ethereum.
-
-QuantumChain isn’t a product — it’s a philosophy. One built around preemptive design for cryptographic survival, focusing on:
+**QuantumChain** is a philosophy, not a product. It is based on:
 - address structure,
 - key reproducibility,
 - script behavior,
 - derivation integrity.
 
-Some of these foundations are already present in my current tools.
 
----
-
-## 🧩 About BitMorphX
-
-Development, to me, is a form of deep understanding. My tools are designed for **exploration**, **learning**, and **protection** — always ethical and educational.
-
-I will **never publish** tools that can harm end users or compromise blockchain networks.
-
-BitMorphX is not a name. It’s a lens — a structured and respectful way of seeing blockchain.
-
-> “I morph bits, not to break, but to understand.” — BitMorphX
-
----
-
-📧 Contact: **[BitMorphX@proton.me](mailto:BitMorphX@proton.me)**
-
----
-
-🔐 All public projects are MIT licensed. Built with respect for privacy and technological freedom.
-
----
-
-🎁 **Support**
-
-If you'd like to support future development and research:
+## 🎁 Support
 
 ★ **Bitcoin (BTC)**  
 `1MorphXyhHpgmYSfvwUpWojphfLTjrNXc7`
@@ -116,7 +131,21 @@ If you'd like to support future development and research:
 ★ **Dash (DASH)**  
 `XtNuNfgaEXFKhtfxAKuDkdysxUqaZm7TDX`
 
-We also value early privacy coins such as **Bytecoin (BCN)**:  
+**We also value early privacy coins such as:**  
+★ **Bytecoin (BCN)**  
 `bcnZNMyrDrweQgoKH6zpWaE2kW1VZRsX3aDEqnxBVEQfjNnPK6vvNMNRPA4S7YxfhsStzyJeP16woK6G7cRBydZm2TvLFB2eeR`
 
 🙏 *Thank you for supporting independent research and ethical technology.*
+
+---
+
+**Created with dedication to education, blockchain exploration, and ethical research.**  
+*“I morph bits, not to break, but to understand.” — BitMorphX*
+
+📧 Contact: **[BitMorphX@proton.me](mailto:BitMorphX@proton.me)**
+
+
+---
+ 🕒 Last updated: 2025-05-30
+
+ © BitMorphX – All rights reserved.

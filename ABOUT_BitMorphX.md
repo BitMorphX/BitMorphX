@@ -144,6 +144,7 @@ Example: **Bytecoin (BCN)** – the first CryptoNote-based network. Together wit
 
 📧 Contact: **[BitMorphX@proton.me](mailto:BitMorphX@proton.me)**
 
+**💼 Open to research collaborations, part-time freelance, or blockchain security audits.**
 
 ---
  🕒 Last updated: 2025-05-30

@@ -26,7 +26,14 @@ I focus on low-level blockchain behavior — from raw HEX keys to full address d
 ---
 
 📁 Explore my repositories below  
-📧 Contact: [BitMorphX@proton.me](mailto:BitMorphX@proton.me)  
-💬 “I morph bits, not to break, but to understand.” — BitMorphX
+🔗 GitHub Profile: https://github.com/BitMorphX  
+✉️ Email: BitMorphX@proton.me  
+💬 Telegram: https://t.me/BitMorphX
 
-👉 See full profile: [ABOUT_BitMorphX.md](ABOUT_BitMorphX.md)
+---
+> _“I morph bits, not to break, but to understand.”_  
+> — **BitMorphX**
+
+© 2025 BitMorphX. All rights reserved.
+
+🔎 See full profile: [ABOUT_BitMorphX.md](ABOUT_BitMorphX.md)

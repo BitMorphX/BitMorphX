@@ -10,6 +10,13 @@ I'm an independent developer specializing in cryptographic research and blockcha
 
 I focus on low-level blockchain behavior — from raw HEX keys to full address derivation, working with Bitcoin (BTC), Ethereum (ETH), Binance Smart Chain (BSC), Polygon, Solana, and other networks, including alternative and experimental architectures.
 
+> I don’t build exploitative tools or anything designed for unauthorized access.  
+> Every project I publish is meant to empower researchers, not attackers.
+
+🧭 I create tools that uncover the cryptographic structure of decentralized networks, supporting security audits, educational research, and entropy pattern discovery.
+
+🛠️ One of my key achievements is the development of **the first offline multi-chain key scanner** tailored for entropy-based anomaly detection — built entirely with security and research in mind.
+
 ---
 
 ### ⚙️ Research Domains

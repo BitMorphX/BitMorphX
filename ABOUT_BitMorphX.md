@@ -1,11 +1,10 @@
 ## 👤 About BitMorphX – GitHub Profile
 
-Hello! I am **BitMorphX** – an independent developer creating open-source tools for Bitcoin address analysis, key transformation, and in-depth blockchain structural research. Since 2013, I’ve been working with cryptocurrency technologies, diving into their architecture, security, and algorithmic efficiency. I also analyze Ethereum (ETH), Binance Smart Chain (BSC), Polygon (MATIC), Solana (SOL), and other networks.
+I am **BitMorphX** – an advanced independent researcher and developer specializing in open-source tools for Bitcoin key analysis, address derivation logic, and blockchain architecture exploration. With over a decade of experience (since 2013), I focus on cryptographic structure, key entropy, derivation patterns, and cross-chain validation logic across Bitcoin, Ethereum, BSC, Polygon, Solana, and other modern networks.
 
-For me, development is a path to deep understanding. All of my tools are **educational, ethical, and analytical**. I will **never publish** tools that could harm users or networks.
+My work is driven by research precision, algorithmic transparency, and a deep respect for ethical boundaries in blockchain development. Every tool I publish is designed for educational, analytical, and secure research purposes. I do not release anything that could facilitate misuse or real-world harm.
 
-**BitMorphX** is not a name – it’s a structured and respectful approach to the blockchain world.
-
+**“BitMorphX” is not a pseudonym – it's a research philosophy.** It represents methodical analysis, cryptographic integrity, and a commitment to demystifying blockchain internals.
 
 ## 📂 My Project Collection (a gentle introduction to blockchain)
 
@@ -30,7 +29,6 @@ Entropy visualization tool. Displays character distribution and structural patte
 ### 🔹 btc_key_generator
 A WIF format private key generator with correct prefixes – efficient for testing.
 
-
 ## 🛡️ ETHICS
 
 **BitMorphX always follows ethical principles:**
@@ -40,38 +38,83 @@ A WIF format private key generator with correct prefixes – efficient for testi
 - Each project is **local and does not connect to third-party systems**.
 - **No testing on real users' addresses without consent**.
 
-This profile shares methodology – not an invitation to misuse. All public components are safe, and private ones are documented for research purposes only.
-
 > "Ethics begin with responsibility, and BitMorphX chooses understanding over exploitation."
 
-**⛐ Each user assumes full responsibility for any use of the tools.** BitMorphX accepts no liability for illegal or harmful actions performed using the provided code.
+**⛐ Each user assumes full responsibility for any use of the tools.**  
+BitMorphX accepts no liability for illegal or harmful actions performed using the provided code.
 
-🔐 All public projects are MIT licensed. Built with respect for privacy and freedom. **Each user is solely responsible for how these tools are used.**
+🔐 All public projects are dual-licensed under the [MIT License](./MIT_LICENSE) and the [Apache 2.0 License](./LICENSE).  
+Built with respect for privacy, freedom, and individual accountability.
 
+See [ETHICS.md](./ETHICS.md) for the full statement on responsible and ethical use of these tools.  
+See [NOTICE](./NOTICE) for attribution, licensing intent, and author rights.
 
 ## 👤 Private Collection (projects not publicly shared for ethical reasons)
 
-### 🔐 multi_chain_key_checker
-Cross-chain address and HEX key analyzer for Ethereum, BSC, and Polygon. Checks key validity, generates addresses, and observes character distribution.
+### 🔐 all_distances_v1  
+Public key comparison tool using Hamming, Euclidean, and heuristic distance metrics for Bitcoin vanity analysis. Fully offline.
 
-### 🔐 frag_btc_key
-Specialized tool for reconstructing fragmented Bitcoin HEX keys. Operates fully locally without databases.
+### 🔐 all_distances_v2  
+Improved version with optimized performance and structural Hamming, Levenshtein, and heuristic analysis. Fully offline.
 
-### 🔐 mnemonic_generator
-Tool based on BIP39 generating 12-word mnemonic phrases and calculating BTC/ETH addresses using multiple BIP standards.
+### 🔐 bitcoin_public_key_converter  
+Converts Bitcoin public keys between compressed and uncompressed formats, provides `hash160` and Base58Check addresses. Fully offline.
 
-### 🔐 myther_ix_scanner
-Ethereum network analyzer that scans public addresses to identify contract structures based on address patterns.
+### 🔐 btc_entropy_visualizer  
+Analyzes character distribution and structural entropy of HEX keys. Designed for visual analysis. Fully offline.
 
-### 🔐 validate_pubkeys
-Verifies the cryptographic validity of public keys and whether they can produce valid addresses. Used for validation and integrity checks.
+### 🔐 btc_key_converter  
+HEX → WIF converter supporting both compressed and uncompressed key formats. Fully offline.
 
-### 🔐 extreme_ix
-High-speed HEX → WIF and Ethereum address derivation tool for formatting and entropy experimentation.
+### 🔐 btc_key_generator  
+Fast Bitcoin WIF key generator with correct prefixes. Intended for testing. Fully offline.
 
-### 🔐 vanity_rimped
-Advanced RIPEMD-160 hash comparison tool that calculates % similarity between public keys, identifies stable character positions, and analyzes hash patterns.
+### 🔐 btc_batch_hex_checker  
+Analyzer for HEX key structure with conversion and entropy calculation. Experimental. Fully offline.
 
+### 🔐 bitpeek  
+Base58 decoder and address analyzer with `hash160` and checksum verification. Includes CLI and Flask versions.
+
+### 🔐 euclidean_distance  
+Compares public keys using Euclidean distance via elliptic curve coordinates. Fully offline.
+
+### 🔐 hamming_distance_v1  
+Simple Hamming distance analyzer between generated and target keys. Fully offline.
+
+### 🔐 hamming_distance_v2  
+Calculates Hamming distance between uncompressed and compressed public key formats. Fully offline.
+
+### 🔐 hash_clash  
+RIPEMD-160 hash comparison tool with symbolic similarity scoring. Research-oriented. Fully offline.
+
+### 🔐 hex_mutator  
+Generates symbolic HEX mutations and evaluates impact on `hash160`. Experimental. Fully offline.
+
+### 🔐 key_orbit  
+Symmetry analyzer for public keys. Evaluates structure using geometric patterns and distances. Fully offline.
+
+### 🔐 manhattan_distance  
+Applies Manhattan distance metric to public key coordinates. Useful for symmetry analysis. Fully offline.
+
+### 🔐 mnemonic_generator  
+Generates 12-word BIP39 phrases and derives BTC/ETH addresses and keys. Batch mode supported.  
+**For educational purposes only. Fully offline.**
+
+### 🔐 multi_chain_key_checker  
+Validates ETH, BSC, and POL addresses from given HEX keys via RPC. All results saved to text files. Fully offline.
+
+### 🔐 myther_ix_scanner  
+Scans ETH addresses and analyzes structure and balances. Asynchronous operation.  
+**For educational purposes only. Fully offline.**
+
+### 🔐 validate_pubkeys  
+Validates public keys using the `secp256k1` elliptic curve. Supports manual and file-based input. Fully offline.
+
+### 🔐 vanity_prefix_gen_extreme  
+Generates Bitcoin addresses with a given prefix. High performance. Fully offline.
+
+### 🔐 vanity_rimped  
+Compares RIPEMD-160 hashes of public keys, calculates % match, and identifies symbolic patterns. Fully offline.
 
 ## 🧬 My Research Direction
 
@@ -79,9 +122,9 @@ Advanced RIPEMD-160 hash comparison tool that calculates % similarity between pu
 
 **My research began by investigating vulnerabilities in early Bitcoin implementations:**
 
-1. **Weak private keys** – reused or insecure sequences
-2. **Incorrect BIP32/BIP44 paths** – repeatable or predictable addresses
-3. **Public key reconstruction** – sometimes possible via scriptSig
+1. **Weak private keys** – reused or insecure sequences  
+2. **Incorrect BIP32/BIP44 paths** – repeatable or predictable addresses  
+3. **Public key reconstruction** – sometimes possible via scriptSig  
 4. **Overly exposed APIs** – insecure analytical capabilities
 
 This led to the creation of **local, secure tools** for research and educational use.
@@ -101,7 +144,6 @@ This led to the creation of **local, secure tools** for research and educational
 
 I also explore private key reconstruction using ECDSA parameters (`r`, `s`, `z`) and historical address conversion methods (`asm`, `scriptSig`).
 
-
 ## 🚀 QuantumChain (thinking beyond classical cryptography)
 
 **Before we enter the quantum era, it's important to understand stable legacy systems.**
@@ -118,7 +160,6 @@ Example: **Bytecoin (BCN)** – the first CryptoNote-based network. Together wit
 - key reproducibility,
 - script behavior,
 - derivation integrity.
-
 
 ## 🎁 Support
 
@@ -142,11 +183,16 @@ Example: **Bytecoin (BCN)** – the first CryptoNote-based network. Together wit
 **Created with dedication to education, blockchain exploration, and ethical research.**  
 *“I morph bits, not to break, but to understand.” — BitMorphX*
 
-📧 Contact: **[BitMorphX@proton.me](mailto:BitMorphX@proton.me)**
-
 **💼 Open to research collaborations, part-time freelance, or blockchain security audits.**
 
----
- 🕒 Last updated: 2025-05-30
+## 📡 Contact
 
- © BitMorphX – All rights reserved.
+- 🔗 GitHub Profile: [https://github.com/BitMorphX](https://github.com/BitMorphX)  
+- ✉️ Email: [BitMorphX@proton.me](mailto:BitMorphX@proton.me)  
+- 💬 Telegram: [https://t.me/BitMorphX](https://t.me/BitMorphX)
+
+---
+
+🕒 Last updated: 2025-06-10
+
+© BitMorphX – All rights reserved.

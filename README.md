@@ -44,3 +44,5 @@ I focus on low-level blockchain behavior — from raw HEX keys to full address d
 © 2025 BitMorphX. All rights reserved.
 
 🔎 See full profile: [ABOUT_BitMorphX.md](ABOUT_BitMorphX.md)
+
+📘 Read my technical articles and research notes: [BitMorphX-Journey](https://github.com/BitMorphX/BitMorphX-Journey)

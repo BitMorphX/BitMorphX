@@ -2,7 +2,14 @@
 
 # 👋 Welcome — I'm BitMorphX
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=BitMorphX&label=Profile%20views&color=gray&style=flat" alt="Profile views"/>
+
 I'm an independent developer specializing in cryptographic research and blockchain forensics. Since 2013, I've been building open-source tools for:
+
+<img src="https://bit-morph-x.vercel.app/api?username=BitMorphX&show_icons=true&count_private=true" alt="GitHub Stats" />
+
+
 
 🔍 Advanced Bitcoin address classification  
 🔐 Public/private key transformation logic  

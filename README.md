@@ -4,10 +4,20 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=BitMorphX&label=Profile%20views&color=gray&style=flat" alt="Profile views"/>
+</p>
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats-flax-five-56.vercel.app/api?username=BitMorphX&show_icons=true&theme=tokyonight&count_private=true&cache_seconds=1800"/>
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BitMorphX&layout=compact&theme=tokyonight"/>
+    </td>
+  </tr>
+</table>
 
 I'm an independent developer specializing in cryptographic research and blockchain forensics. Since 2013, I've been building open-source tools for:
-
-<img src="https://github-readme-stats-flax-five-56.vercel.app/api?username=BitMorphX&show_icons=true&theme=tokyonight&count_private=true&cache_seconds=1800" />
 
 🔍 Advanced Bitcoin address classification  
 🔐 Public/private key transformation logic  
@@ -39,7 +49,7 @@ I focus on low-level blockchain behavior — from raw HEX keys to full address d
 
 ### 🔠 Support This Research
 
-☕ **One-time support** – 🙏 [GitHub Sponsors](https://github.com/sponsors/BitMorphX)  
+☕️ **One-time support** – 🙏 [GitHub Sponsors](https://github.com/sponsors/BitMorphX)  
 Your one-time donation helps sustain ethical tools and independent research.
 
 🌱 **Monthly sponsorships** – 💚 [GitHub Sponsors](https://github.com/sponsors/BitMorphX)  
@@ -52,7 +62,7 @@ Multiple tiers available for researchers, developers, and institutions.
 
 📁 Explore my repositories below  
 🔗 GitHub Profile: https://github.com/BitMorphX  
-✉️ Email: BitMorphX@proton.me  
+📩 Email: BitMorphX@proton.me  
 💬 Telegram: https://t.me/BitMorphX
 
 ---

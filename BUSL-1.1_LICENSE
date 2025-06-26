@@ -1,0 +1,69 @@
+Business Source License 1.1
+
+Licensor: BitMorphX
+Change Date: 2029-06-22
+Change License: Apache 2.0
+
+================================================================================
+
+TERMS
+
+The Business Source License (this “License”) is an agreement between you and the
+Licensor, whose software is the subject of this License (the “Licensed Work”).
+Your use of the Licensed Work constitutes your acceptance of this License.
+
+1. Grant of Rights
+
+Subject to the terms and conditions of this License, the Licensor hereby grants
+you the non-exclusive, non-transferable, non-sublicensable right to use,
+reproduce, and create derivative works of the Licensed Work, solely for
+non-Production Use. "Production Use" means any use of the Licensed Work by or
+for your commercial benefit or the benefit of others, excluding your internal
+non-commercial use.
+
+2. Change Date
+
+The Change Date is the later of four years from the date the Licensed Work is
+first publicly available, or the date specified above. On the Change Date, the
+terms of this License shall terminate, and the Licensed Work shall be made
+available under the Change License, as specified above.
+
+3. Change License
+
+The Change License is the license specified above (e.g., Apache 2.0) and will
+govern your use of the Licensed Work from the Change Date forward.
+
+4. Use Limitation
+
+The Licensed Work may not be used to offer a competing hosted service.
+A "competing hosted service" means a commercial offering that provides similar
+functionality to the Licensed Work and is offered to third parties.
+
+5. Notices
+
+You must include a copy of this License with any distribution of the Licensed
+Work you make. You must also retain all copyright and license notices in the
+source code of the Licensed Work.
+
+6. No Warranty
+
+THE LICENSED WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+7. Liability
+
+IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM,
+OUT OF, OR IN CONNECTION WITH THE LICENSED WORK OR THE USE OF OR OTHER DEALINGS
+IN THE LICENSED WORK.
+
+8. Governing Law
+
+This License shall be governed by and construed in accordance with the laws of
+the jurisdiction in which the Licensor is established, unless otherwise agreed
+to in writing.
+
+================================================================================
+
+© BitMorphX – All rights reserved.

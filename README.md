@@ -37,6 +37,19 @@ I focus on low-level blockchain behavior — from raw HEX keys to full address d
 
 ---
 
+### 🔠 Support This Research
+
+☕ **One-time support** – [GitHub Sponsors](https://github.com/sponsors/BitMorphX)  
+Your one-time donation helps sustain ethical tools and independent research.
+
+🌱 **Monthly sponsorships** – 💚 [GitHub Sponsors](https://github.com/sponsors/BitMorphX)  
+Multiple tiers available for researchers, developers, and institutions.
+
+> Every contribution supports cryptographic tools, blockchain analysis, and ethical open-source development.  
+> Thank you for empowering independent work.
+
+---
+
 📁 Explore my repositories below  
 🔗 GitHub Profile: https://github.com/BitMorphX  
 ✉️ Email: BitMorphX@proton.me  

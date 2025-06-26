@@ -7,8 +7,7 @@
 
 I'm an independent developer specializing in cryptographic research and blockchain forensics. Since 2013, I've been building open-source tools for:
 
-![GitHub Stats](https://github-readme-stats-flax-five-56.vercel.app/api?username=BitMorphX&show_icons=true&theme=tokyonight&count_private=true)
-
+<img src="https://github-readme-stats-flax-five-56.vercel.app/api?username=BitMorphX&show_icons=true&theme=tokyonight&count_private=true&cache_seconds=1800" />
 
 🔍 Advanced Bitcoin address classification  
 🔐 Public/private key transformation logic  

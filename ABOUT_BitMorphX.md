@@ -101,15 +101,11 @@ Batch converter for public keys. Outputs:
 - RIPEMD-160 hash  
 - Base58Check Bitcoin address  
 
----
-
 ### 🧠 BITCOINCORE ADDRESS EXPLORER (V1 / V2)  
 Connects to local Bitcoin Core node and scans block data to extract:  
 - Public keys  
 - Legacy addresses  
 - UTXO info for pattern research  
-
----
 
 ### 🔐 BTC ADDRESS GENERATOR  
 Multithreaded Bitcoin address generator. Outputs:  
@@ -117,12 +113,8 @@ Multithreaded Bitcoin address generator. Outputs:
 - WIF (compressed & uncompressed)  
 - Corresponding addresses  
 
----
-
 ### 📐 EUCLIDEAN DISTANCE V1  
 Measures proximity between public keys using (X, Y) coordinates and Euclidean distance.
-
----
 
 ### 🔐 EXTREME IX – HEX → WIF / ETH CONVERTER  
 Converts HEX-format private keys to:  
@@ -130,51 +122,35 @@ Converts HEX-format private keys to:
 - Ethereum addresses  
 Includes multiprocessing + file output.
 
----
-
 ### 🧪 HEX MUTATION GENERATOR / EXTREME  
 Generates all one-symbol mutations of 64-character HEX keys. Useful for:  
 - Entropy analysis  
 - Fuzz testing  
 - Symbolic drift tracking  
 
----
-
 ### 🧠 HAMMING DISTANCE V1 / V2 / V3 / PUBKEYS  
 Compares RIPEMD160(pubkey) hashes to a target hash using bit-level Hamming distance.  
 Results are scored, sorted, and exported.
-
----
 
 ### 📐 HASHCLASH – HASH PREFIX MATCHER  
 Compares hash prefixes (RIPEMD160) between generated and target public keys.  
 Ranks matches based on shared leading bytes.
 
----
-
 ### 🧬 KEY ORBIT  
 Explores entropy anomalies, palindromes, and repeating patterns in keyspace.  
 Supports visualization and analysis logs.
-
----
 
 ### 🧮 MANHATTAN DISTANCE V1  
 Calculates Manhattan distance between public key coordinates.  
 Useful for public key proximity ranking.
 
----
-
 ### 🧠 MNEMONIC GENERATOR – BIP39  
 Generates 12-word mnemonic phrases and derives ETH/BTC addresses.  
 > ⚠️ For testing and research only. **Do not use with real funds.**
 
----
-
 ### 🔍 VANITY PREFIX GEN EXTREME  
 Multithreaded vanity address generator with custom prefix targeting.  
 Logs full key details upon match.
-
----
 
 ### 🔍 VANITY RIMPED  
 Compares multiple RIPEMD160(pubkey) hashes against a reference.  

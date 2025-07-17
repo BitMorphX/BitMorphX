@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/About_BitMorphX.png" alt="About BitMorphX Cover" width="100%" />
+  <img src="assets/ABOUT_BitMorphX.png" alt="About BitMorphX Cover" width="100%" />
 </p>
 
 ## 👤 About BitMorphX – GitHub Profile

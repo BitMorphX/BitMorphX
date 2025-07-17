@@ -93,8 +93,6 @@ Compares private keys to a target public key using:
 - Euclidean distance  
 - Heuristic scoring  
 
----
-
 ### 🧠 BITCOIN PUBLIC KEY CONVERTER  
 Batch converter for public keys. Outputs:  
 - Compressed/uncompressed forms  

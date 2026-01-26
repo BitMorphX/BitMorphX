@@ -28,6 +28,16 @@ To illuminate blockchain internals and cryptographic structure through transpare
 
 ---
 
+## 🔬 Current Research Focus
+
+BitMorphX has evolved beyond standalone tool development toward the systematic study of cryptographic keyspace behavior, entropy distribution, and structural properties of blockchain address generation.
+
+Current research emphasizes controlled key mutations, similarity metrics, and the identification of non-random patterns within cryptographic systems — not to exploit them, but to understand their theoretical and practical boundaries.
+
+This shift reflects a broader transition: from producing tools to questioning assumptions, modeling system behavior, and analyzing how cryptographic primitives respond to structured variation.
+
+---
+
 ## 🧪 Public Tools by BitMorphX
 
 All public tools run **offline** (unless stated) and are made for research, analysis, and education only. Each one is licensed under [Apache License 2.0](./LICENSE).
@@ -269,5 +279,7 @@ I analyze:
 
 ---
 
-🕒 Last updated: 2025-07-17  
+🕒 Last updated: 2026-01-26  
+🧭 Research focus refined — ongoing.  
 © BitMorphX – All rights reserved.
+

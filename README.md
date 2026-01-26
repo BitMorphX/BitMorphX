@@ -30,7 +30,9 @@ I focus on low-level blockchain behavior — from raw HEX keys to full address d
 
 🧭 I create tools that uncover the cryptographic structure of decentralized networks, supporting security audits, educational research, and entropy pattern discovery.
 
-🛠️ One of my key achievements is the development of **the first offline multi-chain key scanner** tailored for entropy-based anomaly detection — built entirely with security and research in mind.
+🧭 Current focus: structured keyspace analysis, entropy behavior, and controlled mutation research (ongoing).
+
+🛠️ One of my key research milestones was the development of an **offline multi-chain key scanner** tailored for entropy-based anomaly detection — built entirely with security and reproducible research in mind.
 
 ---
 
@@ -69,7 +71,7 @@ Multiple tiers available for researchers, developers, and institutions.
 > _“I morph bits, not to break, but to understand.”_  
 > — **BitMorphX**
 
-© 2025 BitMorphX. All rights reserved.
+© 2026 BitMorphX. All rights reserved.
 
 🔎 See full profile: [ABOUT_BitMorphX.md](ABOUT_BitMorphX.md)
 

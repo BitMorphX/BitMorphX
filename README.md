@@ -6,16 +6,10 @@
   <img src="https://komarev.com/ghpvc/?username=BitMorphX&label=Profile%20views&color=gray&style=flat" alt="Profile views"/>
 </p>
 
-<table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats-flax-five-56.vercel.app/api?username=BitMorphX&show_icons=true&theme=tokyonight&count_private=true&cache_seconds=3600" height="180">
-    </td>
-    <td>
-      <img src="https://github-readme-stats-flax-five-56.vercel.app/api/top-langs/?username=BitMorphX&theme=tokyonight&cache_seconds=3600" height="180">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github-readme-stats-flax-five-56.vercel.app/api?username=BitMorphX&show_icons=true&theme=tokyonight&count_private=true&cache_seconds=3600" height="180"/>
+  <img src="https://github-readme-stats-flax-five-56.vercel.app/api/top-langs/?username=BitMorphX&layout=compact&theme=tokyonight&cache_seconds=3600" height="180"/>
+</p>
 
 I'm an independent developer specializing in cryptographic research and blockchain forensics. Since 2013, I've been building open-source tools for:
 

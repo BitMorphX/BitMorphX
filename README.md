@@ -5,11 +5,11 @@
 <p align="center">
   <img 
     src="https://github-readme-stats-flax-five-56.vercel.app/api?username=BitMorphX&show_icons=true&theme=tokyonight&count_private=true&cache_seconds=3600" 
-    height="180"
+    width="460"
   />
   <img 
-    src="https://github-readme-stats-flax-five-56.vercel.app/api/top-langs/?username=BitMorphX&layout=compact&theme=tokyonight&cache_seconds=3600&card_width=495" 
-    height="180"
+    src="https://github-readme-stats-flax-five-56.vercel.app/api/top-langs/?username=BitMorphX&layout=compact&theme=tokyonight&cache_seconds=3600&card_width=460" 
+    width="460"
   />
 </p>
 

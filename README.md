@@ -9,10 +9,10 @@
 <table>
   <tr>
     <td>
-      <img  src="https://github-readme-stats-flax-five-56.vercel.app/api?username=BitMorphX&show_icons=true&theme=tokyonight&count_private=true&cache_seconds=3600" height="180">
+      <img src="https://github-readme-stats-flax-five-56.vercel.app/api?username=BitMorphX&show_icons=true&theme=tokyonight&count_private=true&cache_seconds=3600" height="180">
     </td>
     <td>
-      <img  src="https://github-readme-stats-flax-five-56.vercel.app/api/top-langs/?username=BitMorphX&layout=compact&theme=tokyonight&cache_seconds=3600" height="180">
+      <img src="https://github-readme-stats-flax-five-56.vercel.app/api/top-langs/?username=BitMorphX&theme=tokyonight&cache_seconds=3600" height="180">
     </td>
   </tr>
 </table>

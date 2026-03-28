@@ -1,4 +1,6 @@
-![BitMorphX Banner](assets/cover.png)
+<p align="center">
+  <img src="assets/cover.png" alt="BitMorphX Banner" width="1000">
+</p>
 
 # 👋 Welcome — I'm BitMorphX
 

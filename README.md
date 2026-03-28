@@ -2,9 +2,7 @@
   <img src="assets/cover.png" alt="BitMorphX Banner" width="1000">
 </p>
 
-<p align="center">
-  <strong style="font-size: 24px;">Cryptographic Research • Open-Source Tools • Structural Analysis</strong>
-</p>
+<h3 align="center">Cryptographic Research • Open-Source Tools • Structural Analysis</h3>
 
 <p align="center">
   <img 

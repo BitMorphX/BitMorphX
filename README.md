@@ -2,7 +2,8 @@
   <img src="assets/cover.png" alt="BitMorphX Banner" width="1000">
 </p>
 
-# 👋 Welcome — I'm BitMorphX
+## “I morph bits, not to break, but to understand.”
+— BitMorphX
 
 <p align="center">
   <img 

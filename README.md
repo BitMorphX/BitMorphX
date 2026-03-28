@@ -2,8 +2,13 @@
   <img src="assets/cover.png" alt="BitMorphX Banner" width="1000">
 </p>
 
-## “I morph bits, not to break, but to understand.”
-— BitMorphX
+<p align="center" style="color: white; font-size: 22px; margin-top: 20px;">
+  <b>“I morph bits, not to break, but to understand.”</b>
+</p>
+
+<p align="center" style="color: white; font-size: 16px; margin-top: -10px;">
+  — BitMorphX
+</p>
 
 <p align="center">
   <img 
